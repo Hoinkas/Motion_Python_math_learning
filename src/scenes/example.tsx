@@ -204,7 +204,7 @@ export default makeScene2D(function* (view) {
   
   yield* all (
     waitFor(2),
-    code().selection([...word(7, 20, 9), ...word(0, 10, 6)], 0.2),
+    code().selection([...word(0, 10, 12), ...word(7, 20, 9)], 0.2),
     waitFor(2),
   );
 
